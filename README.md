@@ -1,2 +1,2 @@
-# Agentic-AI-SDE---Agentic-AI-Phase-1-Project
+# Agentic-AI-SDE-Project
 Build a single-source RAG assistant — embeddings, FAISS, re-ranking, and RAGAS evaluation, end to end.
