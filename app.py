@@ -3,6 +3,18 @@ import uvicorn
 import gradio as gr
 from backend.app.main import app as fastapi_app
 
+# Satisfy Hugging Face ZeroGPU check if ZeroGPU hardware is selected
+try:
+    import spaces
+
+    @spaces.GPU
+    def _hf_spaces_gpu_ping():
+        return True
+
+    _hf_spaces_gpu_ping()
+except Exception:
+    pass
+
 # Create a clean status dashboard for the Hugging Face Space web view
 with gr.Blocks(title="HR Policy Bot API") as demo:
     gr.Markdown("## 🤖 HR Policy Bot — Agentic RAG API")
