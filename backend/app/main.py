@@ -233,6 +233,20 @@ def query_uploaded_pdf(request: QuestionRequest):
 
     except Exception as exc:
         logger.exception("HR policy query failed")
+        error_msg = str(exc)
+        if "rate limit" in error_msg.lower() or "too many requests" in error_msg.lower() or "429" in error_msg:
+            friendly_message = (
+                "⚠️ OpenRouter rate limit reached for free models today ('free-models-per-day limit exceeded'). "
+                "Please update your OPENROUTER_API_KEY in Render with a new key from https://openrouter.ai/keys, "
+                "or add credits on OpenRouter to continue querying."
+            )
+            return QuestionResponse(
+                question=question,
+                answer=friendly_message,
+                query_type="rate_limited",
+                routing_method="error_fallback",
+                sources=[],
+            )
         raise HTTPException(
             status_code=502,
             detail=(
