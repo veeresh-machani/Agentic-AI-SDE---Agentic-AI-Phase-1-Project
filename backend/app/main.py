@@ -45,16 +45,23 @@ app = FastAPI(
 default_origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://agentic-ai-sde-project.vercel.app",
 ]
-configured_origins = [
-    origin.strip()
-    for origin in os.getenv("FRONTEND_ORIGINS", "").split(",")
-    if origin.strip()
-]
+frontend_origins_env = os.getenv("FRONTEND_ORIGINS", "*").strip()
+if frontend_origins_env == "*" or not frontend_origins_env:
+    allow_origins = ["*"]
+else:
+    configured_origins = [
+        origin.strip()
+        for origin in frontend_origins_env.split(",")
+        if origin.strip()
+    ]
+    allow_origins = list(dict.fromkeys(default_origins + configured_origins))
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=list(dict.fromkeys(default_origins + configured_origins)),
+    allow_origins=allow_origins,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
