@@ -1,0 +1,75 @@
+# ==============================================================================
+# Environment Variables & Secrets (CRITICAL)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+backend/.venv/
+
+# Python packaging & distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Testing & Type checking caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# Frontend (Next.js & Node)
+# ==============================================================================
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==============================================================================
+# Logs & Generated Runtime / Evaluation Artifacts
+# ==============================================================================
+*.log
+evaluation/*.log
+evaluation/ragas_results.jsonl
+
+# Generated Vector Database Index (FAISS binaries can be regenerated)
+# Uncomment the line below if you prefer not to track generated FAISS indices:
+# backend/data/index/
+
+# ==============================================================================
+# Operating System & IDE Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

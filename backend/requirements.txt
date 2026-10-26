@@ -1,0 +1,40 @@
+# PDF processing
+pypdf
+
+# LangChain - RAG pipeline
+langchain
+langchain-community==0.3.31
+langchain-text-splitters
+langchain-core
+langchain-openrouter
+
+# Embeddings
+sentence-transformers
+langchain_huggingface
+
+# Vector database
+faiss-cpu
+
+# Reranking
+# CrossEncoder is provided by sentence-transformers
+
+# Local LLM
+langchain-ollama
+
+# API / Backend
+fastapi
+uvicorn[standard]
+
+# Configuration
+python-dotenv
+
+# Evaluation
+ragas
+
+# Data handling
+numpy
+pandas
+
+openai
+instructor
+python-multipart

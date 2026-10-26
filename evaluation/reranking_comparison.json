@@ -1,0 +1,1021 @@
+{
+  "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "candidate_k": 10,
+  "created_at_utc": "2026-10-25T16:09:07.192881+00:00",
+  "comparisons": [
+    {
+      "question": "What is the process for applying for casual leave?",
+      "candidate_count": 10,
+      "top_result_changed": false,
+      "before_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 1,
+          "l2_distance": 0.939125657081604
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 104,
+          "snippet": "the employee has been absent from work without permission, and the period of absence \nwill be treated as leave without pay. The employee will also be subject to disciplinary action. \n\u2022 At the end of each calendar year, the employee\u2019s outstanding Privileged Leave accrual will \nbe captured. Five (5) l",
+          "rank": 2,
+          "l2_distance": 1.1529293060302734
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 105,
+          "snippet": "will be encashed at the basic pay rate on the day of resignation/ retirement / termination. \nThis encashment will be processed during the employee\u2019s final pay according to regular \npayroll practices and will be subject to statutory deductions as legislated. \n\u2022 In a stretch only 2 weeks\u2019 leaves (incl",
+          "rank": 3,
+          "l2_distance": 1.1848175525665283
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 8,
+          "chunk_id": 18,
+          "snippet": "The first step in this process is that the job  profile is decided by the HR Manager in  \nconsultation with the core committee members and top Management of . An  \nInterview Team is selected by the Director/ HR Manager for the recruitment of appropriate \nstaff for filling the vacant position(s). \nVe",
+          "rank": 4,
+          "l2_distance": 1.2037389278411865
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 10,
+          "chunk_id": 24,
+          "snippet": "and conditions contained in the Employment Agreement and its decision thereon shall be  \nbinding on all employees. \n \nJoining Date: The first day an employee reports to work is his \"official\" Joining Date. The \nJoining Date is used to compute various conditions and welfare measures described in this",
+          "rank": 5,
+          "l2_distance": 1.2248258590698242
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 2,
+          "chunk_id": 2,
+          "snippet": "2 \n \n \n \nTable of Contents \n \n1. Company Name \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. \n1.1 Introduction \n1.2 Management Philosophy \n1.3 Business Ethics and conducts \n1.4 Policy and Procedure Manual \n1.5 Our Vision \n1.6 Our Mission \n \n2. The Employment \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\u2026\u2026.. \n2.1 Employee Relations \n2.2 ",
+          "rank": 6,
+          "l2_distance": 1.2392950057983398
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 17,
+          "chunk_id": 50,
+          "snippet": "18 \n \n \n \n\u2666 Lay off\u2014involuntary employment termination by the organization for non- \ndisciplinary reason by giving [one] month's salary in lieu of written notice. \n\u2666 Retirement\u2014voluntary employment termination initiated by the employee on  \nmeeting age or length of service or any other criteria for ",
+          "rank": 7,
+          "l2_distance": 1.2477154731750488
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 106,
+          "snippet": "or injury. Any employee who joins through the calendar year shall be entitled to Sick Leave \non prorated basis. \n\u2022 Sick Leave allocation for an employee will be 3.5 leaves on a half yearly basis i.e. (from \nJanuary-June and July- December cycle) \n\u2022 When an employee is unable to attend a scheduled sh",
+          "rank": 8,
+          "l2_distance": 1.2694989442825317
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 108,
+          "snippet": "Pay. \n\u2022 Prior to or on the day employee reports back to work, the Sick Leave records need to be \nupdated in the system. Should the employee be found to not be maintaining their Sick Leave \nrecords in the system, they will be subject to disciplinary action. \nSick Leave accruals cannot be rolled over ",
+          "rank": 9,
+          "l2_distance": 1.269709825515747
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 16,
+          "chunk_id": 49,
+          "snippet": "completion of the 6 (six) months of the Probationary Period, employee must give \nthe Employer 60 days\u2019 notice of resignation. \n\u2666 Discharge\u2014involuntary employment termination initiated by an employer by \ngiving 60 days salary in lieu of written notice to the employee. \nVeer IT HR Manual",
+          "rank": 10,
+          "l2_distance": 1.286340355873108
+        }
+      ],
+      "after_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 1,
+          "cross_encoder_score": 3.0367627143859863
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 108,
+          "snippet": "Pay. \n\u2022 Prior to or on the day employee reports back to work, the Sick Leave records need to be \nupdated in the system. Should the employee be found to not be maintaining their Sick Leave \nrecords in the system, they will be subject to disciplinary action. \nSick Leave accruals cannot be rolled over ",
+          "rank": 2,
+          "cross_encoder_score": -1.885313630104065
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 8,
+          "chunk_id": 18,
+          "snippet": "The first step in this process is that the job  profile is decided by the HR Manager in  \nconsultation with the core committee members and top Management of . An  \nInterview Team is selected by the Director/ HR Manager for the recruitment of appropriate \nstaff for filling the vacant position(s). \nVe",
+          "rank": 3,
+          "cross_encoder_score": -7.038782119750977
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 17,
+          "chunk_id": 50,
+          "snippet": "18 \n \n \n \n\u2666 Lay off\u2014involuntary employment termination by the organization for non- \ndisciplinary reason by giving [one] month's salary in lieu of written notice. \n\u2666 Retirement\u2014voluntary employment termination initiated by the employee on  \nmeeting age or length of service or any other criteria for ",
+          "rank": 4,
+          "cross_encoder_score": -7.472267150878906
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 106,
+          "snippet": "or injury. Any employee who joins through the calendar year shall be entitled to Sick Leave \non prorated basis. \n\u2022 Sick Leave allocation for an employee will be 3.5 leaves on a half yearly basis i.e. (from \nJanuary-June and July- December cycle) \n\u2022 When an employee is unable to attend a scheduled sh",
+          "rank": 5,
+          "cross_encoder_score": -7.761966705322266
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 104,
+          "snippet": "the employee has been absent from work without permission, and the period of absence \nwill be treated as leave without pay. The employee will also be subject to disciplinary action. \n\u2022 At the end of each calendar year, the employee\u2019s outstanding Privileged Leave accrual will \nbe captured. Five (5) l",
+          "rank": 6,
+          "cross_encoder_score": -8.058140754699707
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 105,
+          "snippet": "will be encashed at the basic pay rate on the day of resignation/ retirement / termination. \nThis encashment will be processed during the employee\u2019s final pay according to regular \npayroll practices and will be subject to statutory deductions as legislated. \n\u2022 In a stretch only 2 weeks\u2019 leaves (incl",
+          "rank": 7,
+          "cross_encoder_score": -8.74721622467041
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 16,
+          "chunk_id": 49,
+          "snippet": "completion of the 6 (six) months of the Probationary Period, employee must give \nthe Employer 60 days\u2019 notice of resignation. \n\u2666 Discharge\u2014involuntary employment termination initiated by an employer by \ngiving 60 days salary in lieu of written notice to the employee. \nVeer IT HR Manual",
+          "rank": 8,
+          "cross_encoder_score": -8.920817375183105
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 10,
+          "chunk_id": 24,
+          "snippet": "and conditions contained in the Employment Agreement and its decision thereon shall be  \nbinding on all employees. \n \nJoining Date: The first day an employee reports to work is his \"official\" Joining Date. The \nJoining Date is used to compute various conditions and welfare measures described in this",
+          "rank": 9,
+          "cross_encoder_score": -10.299177169799805
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 2,
+          "chunk_id": 2,
+          "snippet": "2 \n \n \n \nTable of Contents \n \n1. Company Name \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. \n1.1 Introduction \n1.2 Management Philosophy \n1.3 Business Ethics and conducts \n1.4 Policy and Procedure Manual \n1.5 Our Vision \n1.6 Our Mission \n \n2. The Employment \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\u2026\u2026.. \n2.1 Employee Relations \n2.2 ",
+          "rank": 10,
+          "cross_encoder_score": -10.773483276367188
+        }
+      ]
+    },
+    {
+      "question": "How many casual leaves are allocated on a half-yearly basis?",
+      "candidate_count": 10,
+      "top_result_changed": true,
+      "before_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 102,
+          "snippet": "? Maximum annual vacation that can be taken consecutively is 2 weeks (10 working days).\n? Maximum of 5 days of earned annual vacation can be rolled over to the next year; remaining earned days may be\nmonetized and paid accordingly.",
+          "rank": 1,
+          "l2_distance": 1.1862534284591675
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 105,
+          "snippet": "will be encashed at the basic pay rate on the day of resignation/ retirement / termination. \nThis encashment will be processed during the employee\u2019s final pay according to regular \npayroll practices and will be subject to statutory deductions as legislated. \n\u2022 In a stretch only 2 weeks\u2019 leaves (incl",
+          "rank": 2,
+          "l2_distance": 1.280341386795044
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 3,
+          "l2_distance": 1.2984344959259033
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 104,
+          "snippet": "the employee has been absent from work without permission, and the period of absence \nwill be treated as leave without pay. The employee will also be subject to disciplinary action. \n\u2022 At the end of each calendar year, the employee\u2019s outstanding Privileged Leave accrual will \nbe captured. Five (5) l",
+          "rank": 4,
+          "l2_distance": 1.3065719604492188
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 103,
+          "snippet": "Earned Leave \n\u2022 An employee will be entitled to Earned Leave up to 15 working days in a year (exclusive of \nintervening weekends or public holidays). \n\u2022 Every employee who completes 20 days in the company would be granted 1.25 days of \nearned leave, and a similar pattern would be followed for alloca",
+          "rank": 5,
+          "l2_distance": 1.3334479331970215
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 6,
+          "chunk_id": 120,
+          "snippet": "Half Day & Full Day \nHalf Day: When an employee has logged 4 hours in office, it will be counted as half day. \nFull Day: When an employee has logged less than 9 hours in office but has logged at least 6 hours \non the day, it shall be counted as a full day working. However, the remaining hours are to",
+          "rank": 6,
+          "l2_distance": 1.3829036951065063
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 101,
+          "snippet": "partner \n5 working days. (father only) \nNo rollover \nVEER IT\nSOLUTIONS\nVacation Guidelines\n? Vacation calendar runs each year from January 1st to December 31st.\n? Vacation days are accrued monthly and the balance can be found in the HR Portal.\n? All vacation requests must be made in the HR Portal fo",
+          "rank": 7,
+          "l2_distance": 1.3970868587493896
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 100,
+          "snippet": "INDIA LEAVE POLICY \n \nSummary \n \nLeave Type Description India/APAC \nAnnual Leave Entitled annual paid time-off 3 weeks \nSick/ Personal/Carers \nLeave \nLeave taken when sick. 7 days/year. No rollover \nBereavement Leave Paid Leave taken to mourn a loved one. 3 days/years. No rollover \nCausal/Personal \n",
+          "rank": 8,
+          "l2_distance": 1.4012792110443115
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 108,
+          "snippet": "Pay. \n\u2022 Prior to or on the day employee reports back to work, the Sick Leave records need to be \nupdated in the system. Should the employee be found to not be maintaining their Sick Leave \nrecords in the system, they will be subject to disciplinary action. \nSick Leave accruals cannot be rolled over ",
+          "rank": 9,
+          "l2_distance": 1.4097496271133423
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 112,
+          "snippet": "\u2022 All female employees will be receiving their monthly pay during the maternity leave period \nreferred to in notice submitted by them. \nMaternity Leave Policy as per Punjab Government \nThe statutory provision of leaves allowed in case of maternity, please note that we have thoroughly \nexamined the r",
+          "rank": 10,
+          "l2_distance": 1.481675386428833
+        }
+      ],
+      "after_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 1,
+          "cross_encoder_score": 7.3967204093933105
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 103,
+          "snippet": "Earned Leave \n\u2022 An employee will be entitled to Earned Leave up to 15 working days in a year (exclusive of \nintervening weekends or public holidays). \n\u2022 Every employee who completes 20 days in the company would be granted 1.25 days of \nearned leave, and a similar pattern would be followed for alloca",
+          "rank": 2,
+          "cross_encoder_score": -3.4661645889282227
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 108,
+          "snippet": "Pay. \n\u2022 Prior to or on the day employee reports back to work, the Sick Leave records need to be \nupdated in the system. Should the employee be found to not be maintaining their Sick Leave \nrecords in the system, they will be subject to disciplinary action. \nSick Leave accruals cannot be rolled over ",
+          "rank": 3,
+          "cross_encoder_score": -3.813863754272461
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 105,
+          "snippet": "will be encashed at the basic pay rate on the day of resignation/ retirement / termination. \nThis encashment will be processed during the employee\u2019s final pay according to regular \npayroll practices and will be subject to statutory deductions as legislated. \n\u2022 In a stretch only 2 weeks\u2019 leaves (incl",
+          "rank": 4,
+          "cross_encoder_score": -6.804312705993652
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 104,
+          "snippet": "the employee has been absent from work without permission, and the period of absence \nwill be treated as leave without pay. The employee will also be subject to disciplinary action. \n\u2022 At the end of each calendar year, the employee\u2019s outstanding Privileged Leave accrual will \nbe captured. Five (5) l",
+          "rank": 5,
+          "cross_encoder_score": -7.700922966003418
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 6,
+          "chunk_id": 120,
+          "snippet": "Half Day & Full Day \nHalf Day: When an employee has logged 4 hours in office, it will be counted as half day. \nFull Day: When an employee has logged less than 9 hours in office but has logged at least 6 hours \non the day, it shall be counted as a full day working. However, the remaining hours are to",
+          "rank": 6,
+          "cross_encoder_score": -9.036989212036133
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 112,
+          "snippet": "\u2022 All female employees will be receiving their monthly pay during the maternity leave period \nreferred to in notice submitted by them. \nMaternity Leave Policy as per Punjab Government \nThe statutory provision of leaves allowed in case of maternity, please note that we have thoroughly \nexamined the r",
+          "rank": 7,
+          "cross_encoder_score": -9.291746139526367
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 102,
+          "snippet": "? Maximum annual vacation that can be taken consecutively is 2 weeks (10 working days).\n? Maximum of 5 days of earned annual vacation can be rolled over to the next year; remaining earned days may be\nmonetized and paid accordingly.",
+          "rank": 8,
+          "cross_encoder_score": -9.322434425354004
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 100,
+          "snippet": "INDIA LEAVE POLICY \n \nSummary \n \nLeave Type Description India/APAC \nAnnual Leave Entitled annual paid time-off 3 weeks \nSick/ Personal/Carers \nLeave \nLeave taken when sick. 7 days/year. No rollover \nBereavement Leave Paid Leave taken to mourn a loved one. 3 days/years. No rollover \nCausal/Personal \n",
+          "rank": 9,
+          "cross_encoder_score": -9.579089164733887
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 101,
+          "snippet": "partner \n5 working days. (father only) \nNo rollover \nVEER IT\nSOLUTIONS\nVacation Guidelines\n? Vacation calendar runs each year from January 1st to December 31st.\n? Vacation days are accrued monthly and the balance can be found in the HR Portal.\n? All vacation requests must be made in the HR Portal fo",
+          "rank": 10,
+          "cross_encoder_score": -10.390209197998047
+        }
+      ]
+    },
+    {
+      "question": "What are the rules for carrying forward privileged leave?",
+      "candidate_count": 10,
+      "top_result_changed": false,
+      "before_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 104,
+          "snippet": "the employee has been absent from work without permission, and the period of absence \nwill be treated as leave without pay. The employee will also be subject to disciplinary action. \n\u2022 At the end of each calendar year, the employee\u2019s outstanding Privileged Leave accrual will \nbe captured. Five (5) l",
+          "rank": 1,
+          "l2_distance": 0.891284704208374
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 2,
+          "l2_distance": 0.950589656829834
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 105,
+          "snippet": "will be encashed at the basic pay rate on the day of resignation/ retirement / termination. \nThis encashment will be processed during the employee\u2019s final pay according to regular \npayroll practices and will be subject to statutory deductions as legislated. \n\u2022 In a stretch only 2 weeks\u2019 leaves (incl",
+          "rank": 3,
+          "l2_distance": 0.9621791839599609
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 7,
+          "chunk_id": 122,
+          "snippet": "\u2022 The compensatory off must be availed within a period of three months from the date \nworked. \n\u2022 Compensatory off when not availed within the stipulated time period will lapse. \n\u2022 Only two days of compensatory offs can be combined and availed at a stretch. The additional \nday off must be taken and w",
+          "rank": 4,
+          "l2_distance": 1.0495193004608154
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 108,
+          "snippet": "Pay. \n\u2022 Prior to or on the day employee reports back to work, the Sick Leave records need to be \nupdated in the system. Should the employee be found to not be maintaining their Sick Leave \nrecords in the system, they will be subject to disciplinary action. \nSick Leave accruals cannot be rolled over ",
+          "rank": 5,
+          "l2_distance": 1.0677874088287354
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 106,
+          "snippet": "or injury. Any employee who joins through the calendar year shall be entitled to Sick Leave \non prorated basis. \n\u2022 Sick Leave allocation for an employee will be 3.5 leaves on a half yearly basis i.e. (from \nJanuary-June and July- December cycle) \n\u2022 When an employee is unable to attend a scheduled sh",
+          "rank": 6,
+          "l2_distance": 1.0761404037475586
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 100,
+          "snippet": "INDIA LEAVE POLICY \n \nSummary \n \nLeave Type Description India/APAC \nAnnual Leave Entitled annual paid time-off 3 weeks \nSick/ Personal/Carers \nLeave \nLeave taken when sick. 7 days/year. No rollover \nBereavement Leave Paid Leave taken to mourn a loved one. 3 days/years. No rollover \nCausal/Personal \n",
+          "rank": 7,
+          "l2_distance": 1.1048046350479126
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 101,
+          "snippet": "partner \n5 working days. (father only) \nNo rollover \nVEER IT\nSOLUTIONS\nVacation Guidelines\n? Vacation calendar runs each year from January 1st to December 31st.\n? Vacation days are accrued monthly and the balance can be found in the HR Portal.\n? All vacation requests must be made in the HR Portal fo",
+          "rank": 8,
+          "l2_distance": 1.119693636894226
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 6,
+          "chunk_id": 119,
+          "snippet": "Leave during Notice Period \nEmployees are not eligible to take any leave when they are serving their notice period under their \ncontract. Any leave taken during the notice period will be considered as leave on loss of pay. \nUnauthorized Absence \n\u2022 Unauthorized absence refers to absence from work wit",
+          "rank": 9,
+          "l2_distance": 1.148210883140564
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 17,
+          "chunk_id": 50,
+          "snippet": "18 \n \n \n \n\u2666 Lay off\u2014involuntary employment termination by the organization for non- \ndisciplinary reason by giving [one] month's salary in lieu of written notice. \n\u2666 Retirement\u2014voluntary employment termination initiated by the employee on  \nmeeting age or length of service or any other criteria for ",
+          "rank": 10,
+          "l2_distance": 1.1484739780426025
+        }
+      ],
+      "after_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 104,
+          "snippet": "the employee has been absent from work without permission, and the period of absence \nwill be treated as leave without pay. The employee will also be subject to disciplinary action. \n\u2022 At the end of each calendar year, the employee\u2019s outstanding Privileged Leave accrual will \nbe captured. Five (5) l",
+          "rank": 1,
+          "cross_encoder_score": 4.4758477210998535
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 7,
+          "chunk_id": 122,
+          "snippet": "\u2022 The compensatory off must be availed within a period of three months from the date \nworked. \n\u2022 Compensatory off when not availed within the stipulated time period will lapse. \n\u2022 Only two days of compensatory offs can be combined and availed at a stretch. The additional \nday off must be taken and w",
+          "rank": 2,
+          "cross_encoder_score": -0.3607085347175598
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 105,
+          "snippet": "will be encashed at the basic pay rate on the day of resignation/ retirement / termination. \nThis encashment will be processed during the employee\u2019s final pay according to regular \npayroll practices and will be subject to statutory deductions as legislated. \n\u2022 In a stretch only 2 weeks\u2019 leaves (incl",
+          "rank": 3,
+          "cross_encoder_score": -2.2300989627838135
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 4,
+          "cross_encoder_score": -3.632957696914673
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 2,
+          "chunk_id": 106,
+          "snippet": "or injury. Any employee who joins through the calendar year shall be entitled to Sick Leave \non prorated basis. \n\u2022 Sick Leave allocation for an employee will be 3.5 leaves on a half yearly basis i.e. (from \nJanuary-June and July- December cycle) \n\u2022 When an employee is unable to attend a scheduled sh",
+          "rank": 5,
+          "cross_encoder_score": -4.478274345397949
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 6,
+          "chunk_id": 119,
+          "snippet": "Leave during Notice Period \nEmployees are not eligible to take any leave when they are serving their notice period under their \ncontract. Any leave taken during the notice period will be considered as leave on loss of pay. \nUnauthorized Absence \n\u2022 Unauthorized absence refers to absence from work wit",
+          "rank": 6,
+          "cross_encoder_score": -6.397392272949219
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 108,
+          "snippet": "Pay. \n\u2022 Prior to or on the day employee reports back to work, the Sick Leave records need to be \nupdated in the system. Should the employee be found to not be maintaining their Sick Leave \nrecords in the system, they will be subject to disciplinary action. \nSick Leave accruals cannot be rolled over ",
+          "rank": 7,
+          "cross_encoder_score": -6.637928009033203
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 100,
+          "snippet": "INDIA LEAVE POLICY \n \nSummary \n \nLeave Type Description India/APAC \nAnnual Leave Entitled annual paid time-off 3 weeks \nSick/ Personal/Carers \nLeave \nLeave taken when sick. 7 days/year. No rollover \nBereavement Leave Paid Leave taken to mourn a loved one. 3 days/years. No rollover \nCausal/Personal \n",
+          "rank": 8,
+          "cross_encoder_score": -7.155463218688965
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 17,
+          "chunk_id": 50,
+          "snippet": "18 \n \n \n \n\u2666 Lay off\u2014involuntary employment termination by the organization for non- \ndisciplinary reason by giving [one] month's salary in lieu of written notice. \n\u2666 Retirement\u2014voluntary employment termination initiated by the employee on  \nmeeting age or length of service or any other criteria for ",
+          "rank": 9,
+          "cross_encoder_score": -7.381781578063965
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 101,
+          "snippet": "partner \n5 working days. (father only) \nNo rollover \nVEER IT\nSOLUTIONS\nVacation Guidelines\n? Vacation calendar runs each year from January 1st to December 31st.\n? Vacation days are accrued monthly and the balance can be found in the HR Portal.\n? All vacation requests must be made in the HR Portal fo",
+          "rank": 10,
+          "cross_encoder_score": -8.731382369995117
+        }
+      ]
+    },
+    {
+      "question": "What is the eligibility for paternity leave?",
+      "candidate_count": 10,
+      "top_result_changed": false,
+      "before_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 110,
+          "snippet": "Human Resources Department of such approval. \nPaternity Leave \n\u2022 Paternity Leave is applicable to all male employees who are married (the employee should \nbe married as per Company's records, with information having been provided at the time of \njoining or at the time of marriage. \n\u2022 It is to be ava",
+          "rank": 1,
+          "l2_distance": 0.596835732460022
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 2,
+          "l2_distance": 0.7190221548080444
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 5,
+          "chunk_id": 115,
+          "snippet": "In addition to this Sub-section 5(4) of the Maternity Benefit Act, 1961 further specifies that a woman \nwho legally adopts a child below the age of 3(three) months is entitled to maternity benefit for a \nmaximum period of 12(twelve) weeks from the date when the child is handed over to the adopting \n",
+          "rank": 3,
+          "l2_distance": 1.0646387338638306
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 100,
+          "snippet": "INDIA LEAVE POLICY \n \nSummary \n \nLeave Type Description India/APAC \nAnnual Leave Entitled annual paid time-off 3 weeks \nSick/ Personal/Carers \nLeave \nLeave taken when sick. 7 days/year. No rollover \nBereavement Leave Paid Leave taken to mourn a loved one. 3 days/years. No rollover \nCausal/Personal \n",
+          "rank": 4,
+          "l2_distance": 1.1140457391738892
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 114,
+          "snippet": "\u201c5 (2) No woman shall be entitled to maternity benefit unless she has actually \nworked in an establishment of the employer from whom the claims maternity benefit, for a period \nof not less than [eighty days] in the twelve months immediately preceding the date of her expected \ndelivery\u201d \n\u201c5(3) The ma",
+          "rank": 5,
+          "l2_distance": 1.1533761024475098
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 113,
+          "snippet": "immediately preceding the date of her expected delivery. Sub-section 5(3) specifically mentions that \nthe maximum period for which a woman is entitled to claim the benefit of maternity leave is 26 \n(twenty-six) weeks out of which not more than 8 (eight) weeks should precede the date of her \nexpected",
+          "rank": 6,
+          "l2_distance": 1.1550652980804443
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 5,
+          "chunk_id": 117,
+          "snippet": "under Section 6 of the Maternity Benefit Act, 1961 shall be in Form \u201cB\u201d as provided therein. \nIn addition to the above, Rule no. 5 of the Punjab Maternity Benefit Rules, 1967 prescribes the \nformat for the certificate to be provided as proof of the fact that the woman is pregnant, has \ndelivered a c",
+          "rank": 7,
+          "l2_distance": 1.160811185836792
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 111,
+          "snippet": "Maternity Leave \n\u2022 All female employees who have worked for the company for at least 80 days in the 12 \nmonths immediately preceding the date of their expected delivery will be entitled to claim \nthe benefit of maternity leave. \n\u2022 All female employees will be entitled to claim the benefit of materni",
+          "rank": 8,
+          "l2_distance": 1.1784135103225708
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 101,
+          "snippet": "partner \n5 working days. (father only) \nNo rollover \nVEER IT\nSOLUTIONS\nVacation Guidelines\n? Vacation calendar runs each year from January 1st to December 31st.\n? Vacation days are accrued monthly and the balance can be found in the HR Portal.\n? All vacation requests must be made in the HR Portal fo",
+          "rank": 9,
+          "l2_distance": 1.2151763439178467
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 5,
+          "chunk_id": 116,
+          "snippet": "Further, Sub-section 6(2) of the Maternity Benefit Act,1961 stipulates that the employee applying \nfor the maternity benefit has to submit a notice to the employer with respect to the same, stating \nthe date from which she will be absent from work, which shall not be earlier than 6 (six) weeks from ",
+          "rank": 10,
+          "l2_distance": 1.273811936378479
+        }
+      ],
+      "after_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 110,
+          "snippet": "Human Resources Department of such approval. \nPaternity Leave \n\u2022 Paternity Leave is applicable to all male employees who are married (the employee should \nbe married as per Company's records, with information having been provided at the time of \njoining or at the time of marriage. \n\u2022 It is to be ava",
+          "rank": 1,
+          "cross_encoder_score": 4.80378532409668
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 3,
+          "chunk_id": 109,
+          "snippet": "attend a scheduled shift. Any employee who joins through the calendar year shall be entitled for \nCasual Leave on prorated basis. \n\u2022 Casual Leave allocation for an employee will be 4 leaves on a half yearly basis. \n\u2022 i.e. (from January-June and July- December cycle). Should there be extenuating \ncir",
+          "rank": 2,
+          "cross_encoder_score": 0.319591224193573
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 100,
+          "snippet": "INDIA LEAVE POLICY \n \nSummary \n \nLeave Type Description India/APAC \nAnnual Leave Entitled annual paid time-off 3 weeks \nSick/ Personal/Carers \nLeave \nLeave taken when sick. 7 days/year. No rollover \nBereavement Leave Paid Leave taken to mourn a loved one. 3 days/years. No rollover \nCausal/Personal \n",
+          "rank": 3,
+          "cross_encoder_score": -4.218242645263672
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 111,
+          "snippet": "Maternity Leave \n\u2022 All female employees who have worked for the company for at least 80 days in the 12 \nmonths immediately preceding the date of their expected delivery will be entitled to claim \nthe benefit of maternity leave. \n\u2022 All female employees will be entitled to claim the benefit of materni",
+          "rank": 4,
+          "cross_encoder_score": -5.716311454772949
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 5,
+          "chunk_id": 117,
+          "snippet": "under Section 6 of the Maternity Benefit Act, 1961 shall be in Form \u201cB\u201d as provided therein. \nIn addition to the above, Rule no. 5 of the Punjab Maternity Benefit Rules, 1967 prescribes the \nformat for the certificate to be provided as proof of the fact that the woman is pregnant, has \ndelivered a c",
+          "rank": 5,
+          "cross_encoder_score": -5.872960090637207
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 113,
+          "snippet": "immediately preceding the date of her expected delivery. Sub-section 5(3) specifically mentions that \nthe maximum period for which a woman is entitled to claim the benefit of maternity leave is 26 \n(twenty-six) weeks out of which not more than 8 (eight) weeks should precede the date of her \nexpected",
+          "rank": 6,
+          "cross_encoder_score": -6.103915214538574
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 4,
+          "chunk_id": 114,
+          "snippet": "\u201c5 (2) No woman shall be entitled to maternity benefit unless she has actually \nworked in an establishment of the employer from whom the claims maternity benefit, for a period \nof not less than [eighty days] in the twelve months immediately preceding the date of her expected \ndelivery\u201d \n\u201c5(3) The ma",
+          "rank": 7,
+          "cross_encoder_score": -8.914419174194336
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 5,
+          "chunk_id": 115,
+          "snippet": "In addition to this Sub-section 5(4) of the Maternity Benefit Act, 1961 further specifies that a woman \nwho legally adopts a child below the age of 3(three) months is entitled to maternity benefit for a \nmaximum period of 12(twelve) weeks from the date when the child is handed over to the adopting \n",
+          "rank": 8,
+          "cross_encoder_score": -9.273927688598633
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 5,
+          "chunk_id": 116,
+          "snippet": "Further, Sub-section 6(2) of the Maternity Benefit Act,1961 stipulates that the employee applying \nfor the maternity benefit has to submit a notice to the employer with respect to the same, stating \nthe date from which she will be absent from work, which shall not be earlier than 6 (six) weeks from ",
+          "rank": 9,
+          "cross_encoder_score": -9.3139066696167
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 1,
+          "chunk_id": 101,
+          "snippet": "partner \n5 working days. (father only) \nNo rollover \nVEER IT\nSOLUTIONS\nVacation Guidelines\n? Vacation calendar runs each year from January 1st to December 31st.\n? Vacation days are accrued monthly and the balance can be found in the HR Portal.\n? All vacation requests must be made in the HR Portal fo",
+          "rank": 10,
+          "cross_encoder_score": -10.853649139404297
+        }
+      ]
+    },
+    {
+      "question": "How is employee performance appraisal conducted?",
+      "candidate_count": 10,
+      "top_result_changed": false,
+      "before_reranking": [
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 25,
+          "chunk_id": 83,
+          "snippet": "The Performance Management System is designed to be the foundation for fulfilling  \ncareers at .  \n \n10.3 Performance Appraisal Review System \nPerformance appraisal is the process of obtaining, analyzing and recording information  \nabout the relative worth of an employee. The focus on the performanc",
+          "rank": 1,
+          "l2_distance": 0.4042254090309143
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 26,
+          "chunk_id": 84,
+          "snippet": "27 \n \n \n \nBy focusing the attention on performance, performance appraisal goes to the heart of  \npersonnel management and reflects the Management\u2019s interest in the progress of the  \nemployee. \n \nObjectives: \n \n\u00c6 To review the performance of the employee over a given period of time. \n\u00c6 To judge the g",
+          "rank": 2,
+          "l2_distance": 0.5191782116889954
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 26,
+          "chunk_id": 85,
+          "snippet": "training and development needs of the future. \n\u00c6 To provide feedback to the employee regarding their past performance. \n\u00c6 To provide information to assist in the other personal decision in organization. \n\u00c6 To provide clarity of the expectations and responsibilities of the functions to be \nperformed ",
+          "rank": 3,
+          "l2_distance": 0.5918477177619934
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 3,
+          "chunk_id": 5,
+          "snippet": "10.4 Process of Performance Appraisal and Increment \n10.5 Bonus Scheme(s) \n \n \n11. Promotion Policy\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. \n \n12. Confidential Information and Intellectual Property \n12.1 Confidential Information \n12.2 Intellectual Property \n12.3 IT Information Storage and Security \n \n13. Conflict of Interest ",
+          "rank": 4,
+          "l2_distance": 0.8578706979751587
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 27,
+          "chunk_id": 87,
+          "snippet": "28 \n \n \n \nAfter evaluating the performance review of an employee, his/ her entitlement to increment, \nif any, shall be decided by the CEO and communicated by the HR Manager via email.  \nEmployees will be given one chance to show their dissatisfaction and they can write a  \nrequest email to HR Manage",
+          "rank": 5,
+          "l2_distance": 0.8784209489822388
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 3,
+          "chunk_id": 4,
+          "snippet": "3 \n \n \n \n7.1 Work Schedule \n7.2 Attendance \n7.3 Late Arrival \n7.4 Dress Code \n7.5 Personal Communications \n7.6 Internet \n7.7 Meal Period \n7.8 Parking \n7.9 Emergency Closing \n7.10 Return of Property \n7.11 Professional Development \n \n8. Harassment \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 \n8.1 Policy Statement \n8.2 S",
+          "rank": 6,
+          "l2_distance": 0.9050533771514893
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 25,
+          "chunk_id": 82,
+          "snippet": "We believe that everyone who comes to work does want to utilize their potential and  \ndevelop their relationships with others (Managers, colleagues and clients). \n \nWork is characterized by feelings of satisfaction, frustration, opportunity, exasperation,  \nstimulation, excitement and even feelings ",
+          "rank": 7,
+          "l2_distance": 0.9555383324623108
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 25,
+          "chunk_id": 81,
+          "snippet": "26 \n \n \n \n10.1 Introduction \nAt  we aim to be an employer of choice \u2013 one where people want to work. As a  \nbusiness we are committed to give all members of our team every opportunity to develop  \ntheir careers, to contribute to our business and to share in its success. \n \nThe Performance Management",
+          "rank": 8,
+          "l2_distance": 0.9731582403182983
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 26,
+          "chunk_id": 86,
+          "snippet": "performance review the following areas may be covered: \n \n\u00c6 The quality and quantity of work. \n\u00c6 Initiative and teamwork. \n\u00c6 Attendance. \n\u00c6 Problem solving skills. \n\u00c6 Strengths and areas for improvement. \n\u00c6 Attitude towards work. \n \nAdditional areas may also be reviewed depending upon the particular",
+          "rank": 9,
+          "l2_distance": 1.0141233205795288
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 29,
+          "chunk_id": 95,
+          "snippet": "to their reporting manager. Where there are external involvements that do not  \nrepresent a conflict of interest, these must not affect performance or attendance whilst  \nworking at . If such involvement does affect performance or attendance, it will  \nbe considered a conflict of interest. \n \nEmploy",
+          "rank": 10,
+          "l2_distance": 1.1882153749465942
+        }
+      ],
+      "after_reranking": [
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 25,
+          "chunk_id": 83,
+          "snippet": "The Performance Management System is designed to be the foundation for fulfilling  \ncareers at .  \n \n10.3 Performance Appraisal Review System \nPerformance appraisal is the process of obtaining, analyzing and recording information  \nabout the relative worth of an employee. The focus on the performanc",
+          "rank": 1,
+          "cross_encoder_score": 5.393673896789551
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 26,
+          "chunk_id": 84,
+          "snippet": "27 \n \n \n \nBy focusing the attention on performance, performance appraisal goes to the heart of  \npersonnel management and reflects the Management\u2019s interest in the progress of the  \nemployee. \n \nObjectives: \n \n\u00c6 To review the performance of the employee over a given period of time. \n\u00c6 To judge the g",
+          "rank": 2,
+          "cross_encoder_score": 4.46440315246582
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 27,
+          "chunk_id": 87,
+          "snippet": "28 \n \n \n \nAfter evaluating the performance review of an employee, his/ her entitlement to increment, \nif any, shall be decided by the CEO and communicated by the HR Manager via email.  \nEmployees will be given one chance to show their dissatisfaction and they can write a  \nrequest email to HR Manage",
+          "rank": 3,
+          "cross_encoder_score": 4.035428047180176
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 26,
+          "chunk_id": 85,
+          "snippet": "training and development needs of the future. \n\u00c6 To provide feedback to the employee regarding their past performance. \n\u00c6 To provide information to assist in the other personal decision in organization. \n\u00c6 To provide clarity of the expectations and responsibilities of the functions to be \nperformed ",
+          "rank": 4,
+          "cross_encoder_score": 3.7054619789123535
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 26,
+          "chunk_id": 86,
+          "snippet": "performance review the following areas may be covered: \n \n\u00c6 The quality and quantity of work. \n\u00c6 Initiative and teamwork. \n\u00c6 Attendance. \n\u00c6 Problem solving skills. \n\u00c6 Strengths and areas for improvement. \n\u00c6 Attitude towards work. \n \nAdditional areas may also be reviewed depending upon the particular",
+          "rank": 5,
+          "cross_encoder_score": 0.9808123111724854
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 3,
+          "chunk_id": 5,
+          "snippet": "10.4 Process of Performance Appraisal and Increment \n10.5 Bonus Scheme(s) \n \n \n11. Promotion Policy\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. \n \n12. Confidential Information and Intellectual Property \n12.1 Confidential Information \n12.2 Intellectual Property \n12.3 IT Information Storage and Security \n \n13. Conflict of Interest ",
+          "rank": 6,
+          "cross_encoder_score": -1.4228399991989136
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 3,
+          "chunk_id": 4,
+          "snippet": "3 \n \n \n \n7.1 Work Schedule \n7.2 Attendance \n7.3 Late Arrival \n7.4 Dress Code \n7.5 Personal Communications \n7.6 Internet \n7.7 Meal Period \n7.8 Parking \n7.9 Emergency Closing \n7.10 Return of Property \n7.11 Professional Development \n \n8. Harassment \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 \n8.1 Policy Statement \n8.2 S",
+          "rank": 7,
+          "cross_encoder_score": -5.222879886627197
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 29,
+          "chunk_id": 95,
+          "snippet": "to their reporting manager. Where there are external involvements that do not  \nrepresent a conflict of interest, these must not affect performance or attendance whilst  \nworking at . If such involvement does affect performance or attendance, it will  \nbe considered a conflict of interest. \n \nEmploy",
+          "rank": 8,
+          "cross_encoder_score": -5.72783088684082
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 25,
+          "chunk_id": 81,
+          "snippet": "26 \n \n \n \n10.1 Introduction \nAt  we aim to be an employer of choice \u2013 one where people want to work. As a  \nbusiness we are committed to give all members of our team every opportunity to develop  \ntheir careers, to contribute to our business and to share in its success. \n \nThe Performance Management",
+          "rank": 9,
+          "cross_encoder_score": -6.143016815185547
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 25,
+          "chunk_id": 82,
+          "snippet": "We believe that everyone who comes to work does want to utilize their potential and  \ndevelop their relationships with others (Managers, colleagues and clients). \n \nWork is characterized by feelings of satisfaction, frustration, opportunity, exasperation,  \nstimulation, excitement and even feelings ",
+          "rank": 10,
+          "cross_encoder_score": -8.105379104614258
+        }
+      ]
+    },
+    {
+      "question": "What are the rules for compensatory off?",
+      "candidate_count": 10,
+      "top_result_changed": false,
+      "before_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 7,
+          "chunk_id": 122,
+          "snippet": "\u2022 The compensatory off must be availed within a period of three months from the date \nworked. \n\u2022 Compensatory off when not availed within the stipulated time period will lapse. \n\u2022 Only two days of compensatory offs can be combined and availed at a stretch. The additional \nday off must be taken and w",
+          "rank": 1,
+          "l2_distance": 0.6932207942008972
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 6,
+          "chunk_id": 121,
+          "snippet": "etc., the Company may declare, a public or a weekly holiday (except national holidays) to be \na normal working day and declare the affected day to be a holiday. \nCompensatory Off \nDuring Holidays, teams will work according to business requirements and mutual decision of team \nmembers and managers. \n",
+          "rank": 2,
+          "l2_distance": 0.930145800113678
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 13,
+          "chunk_id": 36,
+          "snippet": "12. No employee shall engage in any act of omission or commission which may directly \nor indirectly violate or discredits the policies of the Company or leads to creation  \nof a toxic or unhealthy work environment, thereby impacting the productivity,  \nreputation or credibility of the Company. \n \nEa",
+          "rank": 3,
+          "l2_distance": 1.0957558155059814
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 7,
+          "chunk_id": 123,
+          "snippet": "The Company expects all work participants to ensure they are demonstrating behaviour that is in \nline with this policy whilst engaged in official duties or while they could be perceived as representing \nthe Company. \nA breach of this policy may lead to disciplinary action including, but not limited ",
+          "rank": 4,
+          "l2_distance": 1.1028846502304077
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 21,
+          "chunk_id": 65,
+          "snippet": "22 \n \n \n \nof everyone who works in the Company to do its share in keeping such area clean and tidy. \nIt is important to return to work on time at the end of the meal period. \n \n7.8 Parking \nEmployees must park their cars, motorcycles & cycles in areas indicated and provided by \nthe Company. \n \n7.9 E",
+          "rank": 5,
+          "l2_distance": 1.1398427486419678
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 14,
+          "chunk_id": 41,
+          "snippet": "Probation shall be considered complete only when confirmed in writing to the employee. \n \nDuring the Probation Period, the Company may choose to terminate the employment at any \ntime and for any reason whatsoever, with or without cause, as per the terms and conditions \nof an employee's Employment Ag",
+          "rank": 6,
+          "l2_distance": 1.147829532623291
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 20,
+          "chunk_id": 64,
+          "snippet": "d. Introducing computer viruses by failing to follow Company IT procedures \n \ne. Downloading software from the Internet or from unauthorized disks and CD ROM\u2019s  \non to the internal network. \n \nFailure to comply with these instructions is a disciplinary offence and will be subjected to \nappropriate i",
+          "rank": 7,
+          "l2_distance": 1.1493923664093018
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 7,
+          "chunk_id": 12,
+          "snippet": "8 \n \n \n \nThe continued success of  is dependent upon our customer\u2019s trust and we are  \ndedicated towards preserving that trust. Employees owe a duty towards  and  \ntowards their customers to act in a way that will merit the continued trust and confidence  \nof the public. \n \n complies with all applic",
+          "rank": 8,
+          "l2_distance": 1.1563705205917358
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 12,
+          "chunk_id": 31,
+          "snippet": "but rather to be certain that an employee understands what conduct is expected and  \nnecessary. The disciplinary procedure is regarded as a guideline and its interpretation is  \nadequately flexible in order to adjust to various circumstances. \n \n follows its own Disciplinary rules and code of Conduc",
+          "rank": 9,
+          "l2_distance": 1.1631944179534912
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 12,
+          "chunk_id": 30,
+          "snippet": "13 \n \n \n \nthe Management. If the idea is found meritorious, special recognition is provided to the  \nemployee(s) who gave the idea in the first place. \n \n2.7 Discipline and code of conduct \nIn any social system, irrespective of its nature, it is important to determine a set of rules  \nthat will regu",
+          "rank": 10,
+          "l2_distance": 1.183406114578247
+        }
+      ],
+      "after_reranking": [
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 7,
+          "chunk_id": 122,
+          "snippet": "\u2022 The compensatory off must be availed within a period of three months from the date \nworked. \n\u2022 Compensatory off when not availed within the stipulated time period will lapse. \n\u2022 Only two days of compensatory offs can be combined and availed at a stretch. The additional \nday off must be taken and w",
+          "rank": 1,
+          "cross_encoder_score": 5.818199157714844
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 6,
+          "chunk_id": 121,
+          "snippet": "etc., the Company may declare, a public or a weekly holiday (except national holidays) to be \na normal working day and declare the affected day to be a holiday. \nCompensatory Off \nDuring Holidays, teams will work according to business requirements and mutual decision of team \nmembers and managers. \n",
+          "rank": 2,
+          "cross_encoder_score": 4.500709056854248
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 14,
+          "chunk_id": 41,
+          "snippet": "Probation shall be considered complete only when confirmed in writing to the employee. \n \nDuring the Probation Period, the Company may choose to terminate the employment at any \ntime and for any reason whatsoever, with or without cause, as per the terms and conditions \nof an employee's Employment Ag",
+          "rank": 3,
+          "cross_encoder_score": -7.5693135261535645
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 12,
+          "chunk_id": 31,
+          "snippet": "but rather to be certain that an employee understands what conduct is expected and  \nnecessary. The disciplinary procedure is regarded as a guideline and its interpretation is  \nadequately flexible in order to adjust to various circumstances. \n \n follows its own Disciplinary rules and code of Conduc",
+          "rank": 4,
+          "cross_encoder_score": -8.117158889770508
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 12,
+          "chunk_id": 30,
+          "snippet": "13 \n \n \n \nthe Management. If the idea is found meritorious, special recognition is provided to the  \nemployee(s) who gave the idea in the first place. \n \n2.7 Discipline and code of conduct \nIn any social system, irrespective of its nature, it is important to determine a set of rules  \nthat will regu",
+          "rank": 5,
+          "cross_encoder_score": -9.063814163208008
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 21,
+          "chunk_id": 65,
+          "snippet": "22 \n \n \n \nof everyone who works in the Company to do its share in keeping such area clean and tidy. \nIt is important to return to work on time at the end of the meal period. \n \n7.8 Parking \nEmployees must park their cars, motorcycles & cycles in areas indicated and provided by \nthe Company. \n \n7.9 E",
+          "rank": 6,
+          "cross_encoder_score": -9.303559303283691
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 20,
+          "chunk_id": 64,
+          "snippet": "d. Introducing computer viruses by failing to follow Company IT procedures \n \ne. Downloading software from the Internet or from unauthorized disks and CD ROM\u2019s  \non to the internal network. \n \nFailure to comply with these instructions is a disciplinary offence and will be subjected to \nappropriate i",
+          "rank": 7,
+          "cross_encoder_score": -9.59151554107666
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 13,
+          "chunk_id": 36,
+          "snippet": "12. No employee shall engage in any act of omission or commission which may directly \nor indirectly violate or discredits the policies of the Company or leads to creation  \nof a toxic or unhealthy work environment, thereby impacting the productivity,  \nreputation or credibility of the Company. \n \nEa",
+          "rank": 8,
+          "cross_encoder_score": -9.680514335632324
+        },
+        {
+          "source": "Veer_IT_Solutions_India_Leave_Policy.pdf",
+          "page": 7,
+          "chunk_id": 123,
+          "snippet": "The Company expects all work participants to ensure they are demonstrating behaviour that is in \nline with this policy whilst engaged in official duties or while they could be perceived as representing \nthe Company. \nA breach of this policy may lead to disciplinary action including, but not limited ",
+          "rank": 9,
+          "cross_encoder_score": -9.84607219696045
+        },
+        {
+          "source": "Veer_IT_Solutions_HR_Manual.pdf",
+          "page": 7,
+          "chunk_id": 12,
+          "snippet": "8 \n \n \n \nThe continued success of  is dependent upon our customer\u2019s trust and we are  \ndedicated towards preserving that trust. Employees owe a duty towards  and  \ntowards their customers to act in a way that will merit the continued trust and confidence  \nof the public. \n \n complies with all applic",
+          "rank": 10,
+          "cross_encoder_score": -10.167832374572754
+        }
+      ]
+    }
+  ]
+}

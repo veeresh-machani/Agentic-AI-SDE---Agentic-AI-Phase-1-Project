@@ -1,0 +1,52 @@
+[
+  {
+    "id": "HR001",
+    "question": "How many casual leaves are allocated on a half-yearly basis?",
+    "reference": "An employee is allocated 4 casual leaves per half-year, with cycles from January to June and July to December."
+  },
+  {
+    "id": "HR002",
+    "question": "When are the two half-yearly casual leave cycles?",
+    "reference": "The two cycles are January through June and July through December."
+  },
+  {
+    "id": "HR003",
+    "question": "How is casual leave handled when an employee joins during the calendar year?",
+    "reference": "An employee who joins during the calendar year is entitled to casual leave on a prorated basis."
+  },
+  {
+    "id": "HR004",
+    "question": "How much earned leave can an employee receive each year?",
+    "reference": "The policy allows up to 15 working days of earned leave per year, excluding intervening weekends and public holidays."
+  },
+  {
+    "id": "HR005",
+    "question": "How many privileged leave days can be carried forward at year-end?",
+    "reference": "Five days of outstanding privileged leave are carried forward to the next year. The policy specifies that the remaining balance is handled through encashment."
+  },
+  {
+    "id": "HR006",
+    "question": "Within what period must compensatory off be used?",
+    "reference": "Compensatory off must be availed within three months of the date worked. Unused compensatory off lapses after that period."
+  },
+  {
+    "id": "HR007",
+    "question": "Is manager approval required to work on a holiday and receive compensatory off?",
+    "reference": "Official manager approval is required to work on national, festival, declared, or weekly-off days. Compensatory off is not granted for work on those days without proper approval."
+  },
+  {
+    "id": "HR008",
+    "question": "What compensation options are available when an employee works on a weekend?",
+    "reference": "Depending on the manager's decision, the employee may receive one day of compensatory off or one day's salary."
+  },
+  {
+    "id": "HR009",
+    "question": "When should paternity leave be taken?",
+    "reference": "Paternity leave should be availed as soon as the child is born, within a week's time. It is available for up to two children and applies to eligible married male employees under the policy."
+  },
+  {
+    "id": "HR010",
+    "question": "How often is employee performance appraisal conducted?",
+    "reference": "Performance appraisal is conducted once a year, based on the reporting manager's performance review and the HR manager's professional analysis."
+  }
+]
