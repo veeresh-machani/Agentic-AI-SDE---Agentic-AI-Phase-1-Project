@@ -64,9 +64,11 @@ flowchart TD
 Agentic-AI-SDE-Project/
 ├── README.md                          # Main project documentation
 ├── pyrightconfig.json                 # Type checking & language server configuration
+├── .python-version                    # Python runtime version for cloud deployment
+├── requirements.txt                   # Root Python dependencies for cloud deployment
 ├── backend/
 │   ├── README.md                      # Detailed backend guide & CLI commands
-│   ├── requirements.txt               # Python dependencies
+│   ├── requirements.txt               # Backend Python dependencies
 │   ├── app/
 │   │   ├── main.py                    # FastAPI application server
 │   │   ├── ingestion/
@@ -93,6 +95,7 @@ Agentic-AI-SDE-Project/
 │   │   └── layout.tsx                 # Root layout & styling
 │   └── package.json
 ├── evaluation/
+│   ├── requirements.txt               # Offline evaluation dependencies (RAGAS, pandas)
 │   ├── hr_eval_dataset.json           # Labeled evaluation test set
 │   ├── run_ragas.py                   # Automated RAGAS evaluation runner
 │   ├── reranking_comparison.json      # Reranking before/after experimental evidence
@@ -190,6 +193,30 @@ The standalone reranker evaluates six HR questions and writes before/after ranki
 
 The integrated `main.py` run also prints candidate rankings, scores, and `Top result changed` flags, verifying that reranked chunks directly inform the context sent to the LLM.
 
+## Cloud Deployment (Vercel + Render)
+
+The project is deployed across a decoupled full-stack architecture:
+
+### 1. Frontend: Hosted on [Vercel](https://vercel.com)
+- **Live URL:** `https://agentic-ai-sde-project.vercel.app`
+- **Framework:** Next.js 15 (Turbopack)
+- **Root Directory:** `frontend`
+- **Build Command:** `npm run build`
+- **Environment Variables:**
+  - `NEXT_PUBLIC_HR_POLICY_API_URL`: `https://agentic-ai-sde-project.onrender.com`
+
+### 2. Backend API: Hosted on [Render](https://render.com)
+- **Live URL:** `https://agentic-ai-sde-project.onrender.com`
+- **Runtime:** Python 3.11 (`.python-version`)
+- **Build Command:** `pip install -r requirements.txt`
+- **Start Command:** `uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT`
+- **Environment Variables:**
+  - `OPENROUTER_API_KEY`: OpenRouter API key for LLM generation
+  - `PYTHONPATH`: `.`
+  - `FRONTEND_ORIGINS`: `https://agentic-ai-sde-project.vercel.app,http://localhost:3000`
+
+---
+
 ## Verified progress
 
 | Requirement | Status |
@@ -208,4 +235,4 @@ The integrated `main.py` run also prints candidate rankings, scores, and `Top re
 | In-memory PDF upload and session vector store | Verified & active |
 | Interactive Next.js Frontend with source citations | Verified & active |
 | RAGAS evaluation script (`evaluation/run_ragas.py`) | Implemented |
-| Hosted deployment | Next step |
+| Hosted deployment (Vercel Frontend + Render Backend) | Verified & active |
