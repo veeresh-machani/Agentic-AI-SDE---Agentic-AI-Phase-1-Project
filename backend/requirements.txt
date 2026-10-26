@@ -1,3 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
 # PDF processing
 pypdf
 
@@ -8,33 +11,20 @@ langchain-text-splitters
 langchain-core
 langchain-openrouter
 
-# Embeddings
+# Embeddings & Reranking
 sentence-transformers
 langchain_huggingface
 
 # Vector database
 faiss-cpu
 
-# Reranking
-# CrossEncoder is provided by sentence-transformers
-
-# Local LLM
-langchain-ollama
-
 # API / Backend
 fastapi
 uvicorn[standard]
 
-# Configuration
+# Configuration & Utilities
 python-dotenv
-
-# Evaluation
-ragas
-
-# Data handling
 numpy
-pandas
-
 openai
 instructor
 python-multipart

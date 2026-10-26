@@ -1,5 +1,14 @@
 import logging
 import os
+
+# Limit thread and memory allocations for low-memory environments (e.g. 512MB RAM)
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+
+import torch
+torch.set_num_threads(1)
+
 from collections import OrderedDict
 from functools import lru_cache
 from pathlib import Path
