@@ -1,3 +1,15 @@
+---
+title: Hr Bot
+emoji: 🤖
+colorFrom: gray
+colorTo: yellow
+sdk: gradio
+sdk_version: 6.30.0
+python_version: '3.11'
+app_file: app.py
+pinned: false
+---
+
 # HR Policy Bot — Agentic RAG Platform
 
 **Selected domain:** HR Policy Bot — answering employee questions about leave, benefits, and workplace policies using sanitized HR policy documents and user-uploaded PDFs.

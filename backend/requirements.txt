@@ -21,6 +21,7 @@ faiss-cpu
 # API / Backend
 fastapi
 uvicorn[standard]
+gradio
 
 # Configuration & Utilities
 python-dotenv
