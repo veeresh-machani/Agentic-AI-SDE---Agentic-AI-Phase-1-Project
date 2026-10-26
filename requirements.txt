@@ -1,1 +1,28 @@
--r backend/requirements.txt
+# PDF processing
+pypdf
+
+# LangChain - RAG pipeline
+langchain
+langchain-community==0.3.31
+langchain-text-splitters
+langchain-core
+langchain-openrouter
+
+# Embeddings & Reranking
+sentence-transformers
+langchain_huggingface
+
+# Vector database
+faiss-cpu
+
+# API / Backend
+fastapi
+uvicorn[standard]
+gradio
+
+# Configuration & Utilities
+python-dotenv
+numpy
+openai
+instructor
+python-multipart
