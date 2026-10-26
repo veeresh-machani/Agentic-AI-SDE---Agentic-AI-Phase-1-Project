@@ -1,39 +1,36 @@
-import torch
+import os
+from pathlib import Path
+from dotenv import load_dotenv
 from langchain_core.documents import Document
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_openai import OpenAIEmbeddings
 
-torch.set_grad_enabled(False)
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+load_dotenv(PROJECT_ROOT / ".env")
 
-MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+MODEL_NAME = "sentence-transformers/all-minilm-l6-v2"
 
 
-def create_embeddings() -> HuggingFaceEmbeddings:
-    """
-    Create the embedding model used by the HR Policy Bot.
-    """
+def create_embeddings() -> OpenAIEmbeddings:
+    """Create lightweight cloud embeddings via OpenRouter (0 MB local RAM)."""
+    api_key = os.getenv("OPENROUTER_API_KEY")
+    if not api_key:
+        raise RuntimeError("OPENROUTER_API_KEY is missing from environment.")
 
-    embeddings = HuggingFaceEmbeddings(
-        model_name=MODEL_NAME,
-        model_kwargs={"device": "cpu"},
-        encode_kwargs={"normalize_embeddings": True},
+    return OpenAIEmbeddings(
+        model=MODEL_NAME,
+        openai_api_key=api_key,
+        openai_api_base="https://openrouter.ai/api/v1",
+        check_embedding_ctx_length=False,
     )
-
-    return embeddings
 
 
 def embed_documents(
     documents: list[Document],
-) -> tuple[HuggingFaceEmbeddings, list[list[float]]]:
-    """
-    Generate embeddings for a list of LangChain Documents.
-    """
-
+) -> tuple[OpenAIEmbeddings, list[list[float]]]:
+    """Generate embeddings for a list of LangChain Documents."""
     embedding_model = create_embeddings()
-
     texts = [document.page_content for document in documents]
-
     vectors = embedding_model.embed_documents(texts)
-
     return embedding_model, vectors
 
 
@@ -45,20 +42,17 @@ if __name__ == "__main__":
     chunks = chunk_documents(documents)
 
     print("\n" + "=" * 60)
-    print("CREATING EMBEDDINGS")
+    print("CREATING EMBEDDINGS (CLOUD API)")
     print("=" * 60)
-
     print(f"Chunks: {len(chunks)}")
     print(f"Model : {MODEL_NAME}")
 
-    embedding_model, vectors = embed_documents(chunks)
+    embedding_model, vectors = embed_documents(chunks[:5])
 
     print("\n" + "=" * 60)
     print("EMBEDDING COMPLETE")
     print("=" * 60)
-
     print(f"Chunks embedded : {len(vectors)}")
     print(f"Vector dimension: {len(vectors[0])}")
-
     print("\nFirst vector preview:")
     print(vectors[0][:10])

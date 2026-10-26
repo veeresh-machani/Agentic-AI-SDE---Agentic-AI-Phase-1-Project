@@ -1,19 +1,13 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-torch
-
 # PDF processing
 pypdf
 
-# LangChain - RAG pipeline
+# LangChain - RAG pipeline & LLM
 langchain
 langchain-community==0.3.31
 langchain-text-splitters
 langchain-core
 langchain-openrouter
-
-# Embeddings & Reranking
-sentence-transformers
-langchain_huggingface
+langchain-openai
 
 # Vector database
 faiss-cpu
