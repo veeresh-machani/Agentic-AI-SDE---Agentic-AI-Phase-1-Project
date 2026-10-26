@@ -3,7 +3,10 @@ from datetime import datetime, timezone
 from functools import lru_cache
 from pathlib import Path
 
+import torch
 from sentence_transformers import CrossEncoder
+
+torch.set_grad_enabled(False)
 
 from backend.app.retrieval.query_index import load_vector_store
 
@@ -62,7 +65,8 @@ def rerank_documents(question, documents):
 
     pairs = [(question, document.page_content) for document in documents]
 
-    scores = load_reranker().predict(pairs)
+    with torch.inference_mode():
+        scores = load_reranker().predict(pairs)
 
     ranked = sorted(
         zip(documents, scores),

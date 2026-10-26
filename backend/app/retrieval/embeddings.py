@@ -1,5 +1,8 @@
+import torch
 from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
+
+torch.set_grad_enabled(False)
 
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
