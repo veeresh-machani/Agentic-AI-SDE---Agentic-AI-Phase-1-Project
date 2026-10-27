@@ -57,12 +57,11 @@ def clean_question(text: str) -> str:
 
 
 def _extract_json(text: str) -> dict:
-    """Parse JSON even if the model surrounds it with code fences."""
-
-    text = text.strip()
+    """Parse JSON even if the model surrounds it with think tags or code fences."""
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
     text = re.sub(
-        r"\A```(?:json)?\s*|\s*```\Z",
-        "",
+        r"```(?:json)?\s*([\s\S]*?)\s*```",
+        r"\1",
         text,
         flags=re.IGNORECASE,
     ).strip()
@@ -141,6 +140,12 @@ single_fact, multi_part, summarization.
             elif isinstance(item, str):
                 text_parts.append(item)
         content = "\n".join(text_parts)
+
+    if not isinstance(content, str) or not content.strip():
+        if hasattr(response, "additional_kwargs"):
+            reasoning = response.additional_kwargs.get("reasoning_content", "")
+            if isinstance(reasoning, str) and reasoning.strip():
+                content = reasoning.strip()
 
     if not isinstance(content, str) or not content.strip():
         raise ValueError("The router returned an empty response.")
